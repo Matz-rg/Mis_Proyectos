@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+   
+}
+
+.traker {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    border-radius: 10px;
+}

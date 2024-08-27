@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+   
+}
+
+caja1 {
+   
+    width: 50%;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(151, 151, 151);
+}
+
+#beepButon {
+    
+    width: 10rem;
+    height: 10rem;
+    background-color: crimson;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.color{
+    
+    background-color: crimson;
+    
+}

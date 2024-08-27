@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+   
+}
+
+.caja1 {
+   
+    width: 50%;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(151, 151, 151);
+    border-radius: 10px;
+
+}
+
+p {
+    font-size: 25px;
+    margin: 10px;
+}
+
+#button {
+    width: 10rem;
+    height: 5rem;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+}
+
+
+#button:hover {
+    width: 10rem;
+    height: 5rem;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(117, 70, 161);
+    color: white;
+
+}
+
+.resaltado {
+    color: red;
+    background-color: yellow;
+    
+}
+
+
